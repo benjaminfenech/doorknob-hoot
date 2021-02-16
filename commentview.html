@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    
+    <head> 
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type"> 
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+
+        <section id="maincontent">
+            <button type="button" id="backhome" onclick="location.href='mainpage.html'">◄ Back to Home</button>
+            <h2>Viewing a single thread:</h2>
+        </section>   
+            
+        <section id="toplevelpost">
+
+        </section>   
+
+        <section id="reply">
+            <h2>Leave a reply to this comment:</h2>
+            <form id="postReply">
+            <input type="text" name="name" id="postreplyname" placeholder="Name"/>
+            <textarea type="text" id="postreplytext" placeholder="Enter your message here" required /></textarea><br>
+            <button type="button" id="submitcomment" onclick="sendReply()">Send reply</button><br><br>  
+            </form> 
+        </section>
+        
+        <section id="posts">
+            <h2>Replies to this comment:</h2>
+        </section>
+
+
+        <section id="replies">
+        
+        </section>   
+
+        <script type="application/javascript" src="scripts/commentView.js"></script>
+
+    </body>
+
+</html>

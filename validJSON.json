@@ -1,0 +1,114 @@
+[
+  {
+    "type": "header",
+    "version": "4.8.5",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "itech3108_30318101_a2"
+  },
+  {
+    "type": "table",
+    "name": "doorknobpost",
+    "database": "itech3108_30318101_a2",
+    "data": [
+      {
+        "id": "1",
+        "name": "user30318101",
+        "text": "I love the cold feel of a brass doorknob, nothing beats it!",
+        "post_date": "2019-06-03 15:38:36",
+        "likes": "24",
+        "reply_to": null
+      },
+      {
+        "id": "2",
+        "name": "Anonymous",
+        "text": "I do have to agree, I look forward to the next day knowing I'll be able to touch a cold doorknob in the morning!",
+        "post_date": "2019-06-03 15:38:36",
+        "likes": "-24",
+        "reply_to": "1"
+      },
+      {
+        "id": "3",
+        "name": "knobhater22",
+        "text": "Honestly, I much prefer a handles, they are far easier to use than knobs.",
+        "post_date": "2019-06-03 15:38:36",
+        "likes": "0",
+        "reply_to": null
+      },
+      {
+        "id": "4",
+        "name": "vintagewoodexpert",
+        "text": "I like hand carved wooden doorknobs the best!!",
+        "post_date": "2019-06-03 15:38:36",
+        "likes": "0",
+        "reply_to": null
+      },
+      {
+        "id": "5",
+        "name": "Anonymous",
+        "text": "That's really neat! Do you make all of your doorknobs custom around the house?",
+        "post_date": "2019-06-03 15:38:36",
+        "likes": "0",
+        "reply_to": "4"
+      },
+      {
+        "id": "6",
+        "name": "Anonymous",
+        "text": "Same! I love custom designed doorknobs.",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "0",
+        "reply_to": "4"
+      },
+      {
+        "id": "7",
+        "name": "knobnewbie",
+        "text": "Hi guys, kind of new to the doorknob scene. Does anyone have any recommendations for suppliers? Thanks!",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "6",
+        "reply_to": null
+      },
+      {
+        "id": "8",
+        "name": "craftexpert76",
+        "text": "Hiya newbie! I usually custom make my doorknobs, but when I need to purchase premade ones I head to amazingdoorknobshop.com",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "14",
+        "reply_to": "7"
+      },
+      {
+        "id": "9",
+        "name": "oldmanjeff",
+        "text": "Back in my day we always used knobs in the house, no handles in sight!!!1!",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "43",
+        "reply_to": null
+      },
+      {
+        "id": "10",
+        "name": "buddy43",
+        "text": "I'm so proud of this community, beautiful stuff guys",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "33",
+        "reply_to": null
+      },
+      {
+        "id": "11",
+        "name": "yeeter",
+        "text": "My doorknob is squeaky, any good way to fix it?",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "43",
+        "reply_to": null
+      },
+      {
+        "id": "12",
+        "name": "craftexpert76",
+        "text": "Just spray a bit of WD40 in there, should clear it right up",
+        "post_date": "2019-06-03 15:38:37",
+        "likes": "18",
+        "reply_to": "11"
+      }
+    ]
+  }
+]

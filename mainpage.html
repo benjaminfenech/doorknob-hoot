@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+    <head> 
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type"> 
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <!--Top title area of webpage--> 
+        <section id="maincontent">
+            <h1>Doorknob Hoot</h1>    
+            <h3>For lovers of everything Doorknobs!</h3> 
+            <img src="images/doorknob.png" alt="doorknob" height="50" width="50">
+        </section>   
+            
+        <section id="createcomment">
+            <h4>Leave a comment:</h4>
+            <form id="postComment">
+            <input type="text" name="name" id="postcommentname" placeholder="Name"/>
+            <textarea type="text" id="postcommenttext" placeholder="Enter your message here" required /></textarea><br>
+            <button type="button" id="submitcomment" onclick="sendComment()">Post comment</button><br><br>  
+            </form> 
+        </section>
+        
+        <section id="posts">        
+        </section>   
+
+        <script type="application/javascript" src="scripts/mainPage.js"></script>
+
+    </body>
+
+</html>
